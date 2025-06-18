@@ -1,11 +1,12 @@
-def main():
-    firt_prampt = "whay yoy gotta  say? : "
-    next_prampt = "I got that! Anything else? : "
 
-    user_input = input(first_prampt)
+msg = input("What you gotta say? : ")
 
-    while user_input != "STAP" :
-        user_input = input(next_prampt)
 
-if __name__ == "_main_":
-   main()
+while True:
+	
+	
+	if msg == "STOP":
+		break
+
+	
+	msg = input("I got that! Anything else? : ")
